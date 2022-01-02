@@ -30,7 +30,7 @@ function PublishPost({ ong }) {
         <Publish>
             { ong.gestor && (
                 <>
-                    <textarea onChange={handleChange(setText)} value={text}></textarea>
+                    <textarea placeholder="Informe algo para seus seguidores" onChange={handleChange(setText)} value={text}></textarea>
                     <button onClick={post}>Postar</button>
                 </>
             ) }
