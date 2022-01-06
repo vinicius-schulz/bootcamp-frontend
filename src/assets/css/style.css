@@ -64,3 +64,12 @@ main {
     margin-right: 6px;
     margin-top: -2px;
 }
+
+.wrapper {
+    padding: 0 0.5ch;
+  }
+  
+  .text {
+    color: #4682b4;
+    text-decoration: underline;
+  }

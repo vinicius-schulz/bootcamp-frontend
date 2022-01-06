@@ -2,7 +2,7 @@ import React from 'react';
 import { OngInfos, OngImgContainer, OngImg } from './styled';
 import { FiPhoneCall, FiMail, FiMapPin } from "react-icons/fi";
 
-function PerfilOng({ name, img, category, tel, email, address }) {
+function PerfilOng({ name, img, category, tel, email, address, gestor }) {
     return (
         <OngInfos>
             <OngImgContainer>
@@ -13,6 +13,7 @@ function PerfilOng({ name, img, category, tel, email, address }) {
             <span><FiPhoneCall /> {tel}</span>
             <span><FiMail /> {email}</span>
             <span><FiMapPin /> {address}</span>
+            <span>{gestor}</span>
         </OngInfos>
     )
 }
